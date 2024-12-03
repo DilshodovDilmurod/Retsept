@@ -1,0 +1,37 @@
+/* Card Container */
+.card {
+    height: 100%; /* Kartalar bir xil bo'lishi uchun balandlikni bir xil belgilash */
+    display: flex;
+    flex-direction: column; /* Tarkibni ustun bo'yicha joylash */
+    justify-content: space-between; /* Kontentni vertikal teng taqsimlash */
+    border-radius: 8px; /* Yengil qirralar */
+}
+
+/* Card Image */
+.card-img-top {
+    max-height: 200px; /* Maksimal balandlik */
+    object-fit: cover; /* Rasmni kartaning o‘lchamiga moslashtirish */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+/* Card Body */
+.card-body {
+    display: flex;
+    flex-direction: column; /* Tarkibni ustun qilib joylash */
+    flex-grow: 1; /* Bo'sh joyni egallash */
+    justify-content: space-between; /* Pastki tugmalarni joylash */
+}
+
+/* Action Buttons */
+.card .d-flex {
+    gap: 5px; /* Tugmalar orasidagi bo'shliq */
+}
+
+/* Grid Rows: Kartalar bir xil o'lchamda bo'lishi uchun */
+.row > .col-md-4 {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 33.3333%; /* Har bir kartaning kengligini tenglashtirish */
+}
