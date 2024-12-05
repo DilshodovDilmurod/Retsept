@@ -109,13 +109,12 @@ Open your browser and visit:
 http://localhost:8000
 ```
 ---
-
+### 📸 Screenshots
 
 
 ---
 
-### ❤️ Contributions
-Feel free to contribute to this project. Fork, star, or submit a pull request to help us improve! 😊
+
 
 
 
